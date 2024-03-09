@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    width: 31%; /* Adjust as needed for spacing */
+    float: left;
+    margin: 1%;
+    padding: 20px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.section-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ffcc00; /* Set your chosen color */
+    border: 1px solid black;
+    padding: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .section {
+        width: 48%; /* Adjust as needed for spacing */
+    }
+}
+
+@media (max-width: 767px) {
+    .section {
+        width: 100%;
+    }
+}
